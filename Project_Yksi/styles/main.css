@@ -3,50 +3,24 @@ body
     font: Arial, sans-serif;
 }
 
-#txtNew
+.buttonArea,
+.footerText,
+#geoLocationContainer,
+#helloWorldInput,
+#helloWorldText
 {
-    border: 1px solid #aaa;
-    border-radius: 5px;
-    position: static;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    background: white;
+    text-align: center;
+}
+
+#txtName
+{
+    border: 1px solid #AAA;
+    border-radius: 15px;
+    position:static;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    background:white;
     color: black;
-    padding: 5px;
-    font-size: 22px;
-    width: 95%;
-}
-
-.delete
-{
-    display: none;
-}
-
-.thumb
-{
-    border-radius: 3px;
-    width: 80%;
-}
-
-.reddit-content
-{
-    line-height: 0.8em;
-    overflow: auto;
-}
-
-.reddit-content-title
-{
-    font-size: 0.75em;
-}
-
-.reddit-content-domain
-{
-    font-size: 0.65em;
-    color: #575757;
-}
-
-.reddit-content-points
-{
-    font-size: 0.65em;
-    color: #aaa;
+    padding: 7px;
 }
