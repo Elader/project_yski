@@ -32,6 +32,7 @@ function sayHelloReset() {
     inputText.value = '';
     sayHelloTextElem.style.display = 'none';
     sayHelloInputElem.style.display = 'block';
+     sayHelloInputElem.style.display = 'block';
 }
 
 //=======================Geolocation Operations=======================//
